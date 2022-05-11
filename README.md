@@ -1,0 +1,1 @@
+This lesson covers basics for testing in Python. The examples in this lesson are meant to cover the basics of assertion, mocking using @patch modifiers, and covering error cases with assertRaises

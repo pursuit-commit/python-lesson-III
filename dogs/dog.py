@@ -1,3 +1,5 @@
+
+
 def side_effect(color):
     print('side effect caused')
 
@@ -37,7 +39,7 @@ class Dog():
     
     def set_color(self, color):
         self.color = color
-        side_effect()
+        side_effect(color)
 
     def __str__(self):
         return 'Hi my name is ' + self.name + '... bark!'

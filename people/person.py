@@ -1,5 +1,4 @@
 from enum import Enum
-from random import random
 
 def mj(): 
     print('he he')

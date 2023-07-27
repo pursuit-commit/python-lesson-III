@@ -1,7 +1,7 @@
 
 
 def side_effect(color):
-    print('side effect caused')
+    raise Exception('side_effect was called')
 
 class Dog():
     def __init__(self, name, breed, age, color) -> None:
@@ -10,7 +10,6 @@ class Dog():
         self.color = color
 
         if (breed == ''):
-            # print('do nothing')
             raise Exception('Breed was provided as empty string')
         else:
             self.breed = breed
